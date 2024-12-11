@@ -11,7 +11,7 @@
   text-align: right;
 }
 .header_img,
-.del-btn__img{
+.del__img{
   width: 100%;
 }
 .header_info {
@@ -92,7 +92,7 @@
 }
 
 /* Task list */
-.list__item {
+.item {
   list-style: none;
   overflow: hidden;
   padding: 20px 0;
@@ -104,8 +104,8 @@
 .item__checkbox,
 .item__task-name,
 .item__input,
-.edit-btn,
-.del-btn {
+.item__edit,
+.item__del {
   vertical-align: middle;
 }
 
@@ -118,12 +118,12 @@
   font-size: 18px;
   width: 226px;
 }
-.del-btn__img {
+.del__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.del-btn__img:hover {
+.del__img:hover {
   transform: rotateZ(0);
 }
 
