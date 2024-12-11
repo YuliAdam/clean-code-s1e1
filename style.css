@@ -108,7 +108,6 @@
 .item__del {
   vertical-align: middle;
 }
-
 .item__checkbox {
   margin: 0 10px;
 }
@@ -138,12 +137,10 @@
   display: none;
   width: 226px;
 }
-
 .edit-mode .item__input {
   display: inline-block;
   width: 224px;
 }
-
 .edit-mode .item__task-name {
   display: none;
 }
