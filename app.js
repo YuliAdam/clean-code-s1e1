@@ -61,7 +61,10 @@ var createNewTaskElement=function(taskString){
     return listItem;
 }
 
-
+//Send form no relod page
+document.querySelector(".add__form").addEventListener("submit",function(e){
+    e.preventDefault();
+});
 
 var addTask=function(){
     console.log("Add Task...");

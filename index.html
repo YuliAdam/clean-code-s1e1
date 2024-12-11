@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header_img" src="./eisenhower-matrix.jpg">
       <a class="header_info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
-      <p id="section add">
-        <label class= "add_title title" for="new-task" >Add Item</label>
-        <div class="add__form">
+    </header>
+    <main class="main">
+      <section class="section add">
+        <h3 class= "add_title title" for="new-task" >Add Item</h3>
+        <form class="add__form" action="" autocomplete="off">
             <input class="add__input input" id="new-task" type="text">
-            <button class="add__btn btn">Add</button>
-        </div>
-      </p>
-      <h3 class="title">Todo</h3>
+            <button class="add__btn btn" type="submit">Add</button>
+        </form>  
+      </section>
+      <section class="section todo">
+        <h3 class="title">Todo</h3>
       <ul class="todo__task list" id="todo-task">
         <li class="list__item">
           <input class="item__checkbox" type="checkbox" >
@@ -39,7 +40,9 @@
           </button>
         </li>
       </ul>
-      <h3 class="title">Completed</h3>
+      </section>
+      <section class="section done">
+        <h3 class="title">Completed</h3>
       <ul class="done__list list" id="done__task">
         <li class="list__item">
           <input class="item__checkbox" type="checkbox" checked >
@@ -51,7 +54,8 @@
           </button>
         </li>
       </ul>
-    </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
