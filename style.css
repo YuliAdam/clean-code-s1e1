@@ -137,10 +137,10 @@
   display: none;
   width: 226px;
 }
-.edit-mode .item__input {
+.edit .item__input {
   display: inline-block;
   width: 224px;
 }
-.edit-mode .item__task-name {
+.edit .item__task-name {
   display: none;
 }

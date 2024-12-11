@@ -50,7 +50,7 @@ var createNewTaskElement=function(taskString){
     deleteButtonImg.className= "del__img";
     deleteButton.appendChild(deleteButtonImg);
 
-    listItem.className = "item";
+    listItem.className = "todo_item item";
 
     //and appending.
     listItem.appendChild(checkBox);
@@ -92,7 +92,7 @@ var editTask=function(){
     var editInput=listItem.querySelector('.item__input');
     var label=listItem.querySelector(".item__task-name");
     var editBtn=listItem.querySelector(".item__edit");
-    var containsClass=listItem.classList.contains("edit-mode");
+    var containsClass=listItem.classList.contains("edit");
     //If class of the parent is .editmode
     if(containsClass){
 
@@ -106,7 +106,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("edit-mode");
+    listItem.classList.toggle("edit");
 };
 
 
