@@ -135,7 +135,8 @@
 
 /* Edit Task */
 .item__input {
-  display: none;width: 226px;
+  display: none;
+  width: 226px;
 }
 
 .edit-mode .item__input {
